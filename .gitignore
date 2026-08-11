@@ -1,0 +1,23 @@
+# Claude Code local settings
+.claude/settings.local.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Vitis/Vivado build artifacts and caches
+.ipcache/
+.Xil/
+_x/
+*.xclbin
+*.xclbin.bak_*
+*.xclbin.info
+*.xo
+*.xo.compile_summary
+*.xsa
+*.link_summary
+
+# Build/tool logs
+*.log
+v++_*.backup.log
